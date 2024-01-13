@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+td {
+  border: 1px solid black;
+  width: 85px;
+  height: 85px;
+}
+.red-box {
+  background-color: red;
+}
+
+.green-box {
+  background-color: green;
+}
+
+.blue-box {
+  background-color: blue;
+}
+
+.yellow-box {
+  background-color: yellow;
+}
+
+.middle-line-red-edge {
+  background-color: red;
+}
+
+.middle-line-red-line {
+  background-color: red;
+}
+
+.three-line-one-green-edge {
+  background-color: green;
+}
+
+.three-line-one-green-line {
+  background-color: green;
+}
+
+.middle-line-yellow-edge {
+  background-color: yellow;
+}
+
+.middle-line-yellow-line {
+  background-color: yellow;
+}
+
+.threeline-one-blue-edge {
+  background-color: blue;
+}
+
+.threeline-one-blue-line {
+  background-color: blue;
+}
+
+.middle-line-blue-home {
+  background-color: blue;
+}
+
+.middle-line-green-home {
+  background-color: green;
+}
+.middle-line-red-home {
+  background-color: red;
+}
+.middle-line-yellow-home {
+  background-color: yellow;
+}
