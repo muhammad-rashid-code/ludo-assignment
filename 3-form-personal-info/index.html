@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="refresh" content="2" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form method="get">
+      <fieldset>
+        <legend>Personal Info</legend>
+        <label for="full-name">
+          Full Name:
+          <input type="text" name="full-name" id="full-name" /></label
+        ><br />
+        <label for="email-address">
+          Email Address:
+          <input type="email" name="email-address" id="email-address" /></label
+        ><br />
+        <label for="phone-number">
+          Phone Number: <input type="number" name="" id="" /></label
+        ><br />
+        <label for="message">
+          Message:
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="3"
+          ></textarea></label
+        ><br />
+        <p>
+          <label for="male"
+            >Gender:<input
+              type="radio"
+              name="gender"
+              id="male"
+              checked
+            />Male</label
+          >
+          <label for="female"
+            ><input type="radio" name="gender" id="female" />Female</label
+          >
+        </p>
+        <label for="Contact"
+          >Preferred Contact Method:
+          <select name="Contact" id="Contact">
+            <option value="email">Email</option>
+            <option value="Mail">Mail</option>
+            <option value="Phone">Phone</option>
+          </select></label
+        ><br />
+        <label for="Interest">
+          Areas of Interest:
+          <input type="checkbox" name="Programming" id="Interest" /> Programming
+          <input type="checkbox" name="Design" id="Interest" /> Design
+          <input type="checkbox" name="Writing" id="Interest" /> Writing</label
+        >
+        <input type="submit" value="Submit" /> <input type="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
